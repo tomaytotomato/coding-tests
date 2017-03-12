@@ -18,6 +18,25 @@ Checkout the repository using git clone
 
 Use `maven clean compile` to build all modules
 
+### Methodology
+
+When writing these projects if there is complex requirements I will note them in a docs.md file in
+the app directory with the requirements, domains etc.
+
+After that I will generate a maven basic app and start writing skeleton classes with empty method
+bodies.
+
+Then I will start writing unit tests that fail, then function by function I will write the code to
+pass those unit tests (TDD).
+
+### Projects
+
+`fizzbuzz` - simple Java app that iterates from 0 --> n and prints out Fizz, Buzz or FizzBuzz depending 
+on whether the number is a multiple of 3,5 or both respectively.
+
+`creditcards` - app that validates a Mastercard number 
+
+
 ### Tags
 
-kata, code, java, fizzbuzz
+kata, code, java, fizzbuzz, creditcard
