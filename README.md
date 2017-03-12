@@ -1,5 +1,7 @@
 # Java Coding Tests
 
+[![Build Status](https://travis-ci.org/bat26/coding-tests.svg?branch=master)](https://travis-ci.org/bat26/coding-tests)
+
 This repository contains all Java coding challenges I have worked on
 for fun, job applications or hack-days.
 
