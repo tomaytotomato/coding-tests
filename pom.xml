@@ -35,6 +35,7 @@
         <module>creditcards</module>
         <module>supermarket</module>
         <module>powerOf2</module>
+        <module>ocr</module>
     </modules>
 
     <!-- Global dependencies -->
