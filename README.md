@@ -38,9 +38,13 @@ on whether the number is a multiple of 3,5 or both respectively.
 
 `creditcards` - app that validates a Mastercard number 
 
-`kaa01` - supermarket api service **In progress**
+`kaa01` - supermarket api service
 
 `powerOf2` - prints out all powers of 2 and calculates the sum of powers
+
+`factorial` - simple factorial number calculator
+
+`hashmap` - hashmap implemtation of Map<> - todo
 
 
 ### Tags

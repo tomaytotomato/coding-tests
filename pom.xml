@@ -36,6 +36,8 @@
         <module>supermarket</module>
         <module>powerOf2</module>
         <module>ocr</module>
+        <module>hashmap</module>
+        <module>factorial</module>
     </modules>
 
     <!-- Global dependencies -->
