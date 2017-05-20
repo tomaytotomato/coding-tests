@@ -38,6 +38,7 @@
         <module>ocr</module>
         <module>hashmap</module>
         <module>factorial</module>
+        <module>fibonacci</module>
     </modules>
 
     <!-- Global dependencies -->

@@ -6,6 +6,7 @@ import org.junit.Test;
 import java.math.BigInteger;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 /**
  * Unit test for simple Factorial.
@@ -40,12 +41,18 @@ public class FactorialTest {
 
     @Test
     public void testLargeFactorial() {
-        final BigInteger result = new BigInteger("20880467999847912034355032910567");
+        final BigInteger result = new BigInteger("25852016738884976640000");
         assertEquals(result, factorial.largeFactorial(23));
     }
 
-    public void testFactorial() {
-
+    /**
+     * Tests comparison of both methods on a small factor to check they both work
+     *
+     * Factorial of 5 => 120
+     */
+    @Test
+    public void testFactorials() {
+        assertTrue(BigInteger.valueOf(factorial.smallFactorial(5)).equals(factorial.largeFactorial(5)));
     }
 
 }

@@ -42,17 +42,15 @@ public class Factorial {
      * Using a loop instead is less performant but will not suffer a call stack limit
      */
     public BigInteger largeFactorial(int num) {
-        BigInteger result = BigInteger.ONE;
-        if (num > 1) {
-            for(int i = 0; i < num; i++) {
-                result = result.multiply(BigInteger.valueOf(num));
-            }
-        }
-        return result;
+        BigInteger fact = BigInteger.valueOf(1);
+        for (int i = 1; i <= num; i++)
+            fact = fact.multiply(BigInteger.valueOf(i));
+        return fact;
     }
 
     /**
      * If num is greater than 15 then true
+     *
      * @param num int
      * @return bool
      */
@@ -61,8 +59,8 @@ public class Factorial {
     }
 
     public static void main(String[] args) {
-        System.out.println( "Factorial App" );
-        System.out.println( "\n\n\n Enter a number to calculate the Factorial of" );
+        System.out.println("Factorial App");
+        System.out.println("\n\n\n Enter a number to calculate the Factorial of");
 
         final Factorial factorial = new Factorial();
 

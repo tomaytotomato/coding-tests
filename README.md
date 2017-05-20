@@ -40,13 +40,17 @@ on whether the number is a multiple of 3,5 or both respectively.
 
 `kaa01` - supermarket api service
 
+`ocr` - character matching, string manipulation
+
 `powerOf2` - prints out all powers of 2 and calculates the sum of powers
 
 `factorial` - simple factorial number calculator
 
 `hashmap` - hashmap implemtation of Map<> - todo
 
+`fibonacci` - a few implementations to solve fibonacci using BigInteger
+
 
 ### Tags
 
-kata, code, java, fizzbuzz, creditcard, powerof2
+kata, code, java, fizzbuzz, creditcard, ocr, powerof2, fibonacci
