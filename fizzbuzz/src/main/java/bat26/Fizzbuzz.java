@@ -33,7 +33,8 @@ public class Fizzbuzz
      */
     public String fizzBuzz(int value) {
 
-        if (value % 3 == 0 && value % 5 == 0) {
+        //15 is lowest common denominator between 3 and 5
+        if (value % 15 == 0) {
             return FIZZ + BUZZ;
         } else if (value %3 == 0) {
             return FIZZ;
