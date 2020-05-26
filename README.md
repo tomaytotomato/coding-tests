@@ -33,12 +33,12 @@ pass those unit tests (TDD).
 
 ### Projects
 
-`fizzbuzz` - simple Java app that iterates from 0 --> n and prints out Fizz, Buzz or FizzBuzz depending 
+`fizzbuzz` - simple Java app that iterates from 0 --> n and prints out Fizz, Buzz or FizzBuzz depending
 on whether the number is a multiple of 3,5 or both respectively.
 
-`creditcards` - app that validates a Mastercard number 
+`creditcards` - app that validates a Mastercard number
 
-`kaa01` - supermarket api service
+`supermarket` - supermarket api service
 
 `ocr` - character matching, string manipulation
 
