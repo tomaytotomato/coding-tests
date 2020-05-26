@@ -1,6 +1,6 @@
 # Java Coding Tests
 
-[![Build Status](https://travis-ci.org/bat26/coding-tests.svg?branch=master)](https://travis-ci.org/bat26/coding-tests)
+[![Build Status](https://travis-ci.org/tomaytotomato/coding-tests.svg?branch=master)](https://travis-ci.org/tomaytotomato/coding-tests)
 
 This repository contains all Java coding challenges I have worked on
 for fun, job applications or hack-days.
@@ -8,7 +8,7 @@ for fun, job applications or hack-days.
 The hope is that it will be of use for people and will save me time having to redo the same
 tests over and over again
 
-All solutions use Java 8 API along with JUNIT
+All solutions use Java 8.
 
 ### Structure
 
