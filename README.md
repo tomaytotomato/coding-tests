@@ -29,27 +29,7 @@ After that I will generate a maven basic app and start writing skeleton classes 
 bodies.
 
 Then I will start writing unit tests that fail, then function by function I will write the code to
-pass those unit tests (TDD).
-
-### Projects
-
-`fizzbuzz` - simple Java app that iterates from 0 --> n and prints out Fizz, Buzz or FizzBuzz depending
-on whether the number is a multiple of 3,5 or both respectively.
-
-`creditcards` - app that validates a Mastercard number
-
-`supermarket` - supermarket api service
-
-`ocr` - character matching, string manipulation
-
-`powerOf2` - prints out all powers of 2 and calculates the sum of powers
-
-`factorial` - simple factorial number calculator
-
-`hashmap` - hashmap implemtation of Map<> - todo
-
-`fibonacci` - a few implementations to solve fibonacci using BigInteger
-
+pass those unit tests in the Red, Green, Refactor process.
 
 ### Tags
 
