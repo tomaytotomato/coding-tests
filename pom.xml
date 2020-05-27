@@ -38,6 +38,7 @@
         <module>ocr</module>
         <module>factorial</module>
         <module>fibonacci</module>
+        <module>stockprice</module>
     </modules>
 
     <!-- Global dependencies -->
