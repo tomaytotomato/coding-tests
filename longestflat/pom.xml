@@ -13,8 +13,7 @@
 
   <name>longestflat</name>
   <description>A simple longestflat.</description>
-  <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <url>https://tomaytotomato.com</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

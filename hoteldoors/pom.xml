@@ -7,11 +7,11 @@
     <version>1.0.0</version>
   </parent>
 
-  <artifactId>deletiondistance</artifactId>
+  <artifactId>hoteldoors</artifactId>
   <version>1.0.0</version>
 
-  <name>deletiondistance</name>
-  <description>A simple deletiondistance.</description>
+  <name>hoteldoors</name>
+  <description>A simple hoteldoors.</description>
   <url>https://tomaytotomato.com</url>
 
   <properties>
@@ -75,11 +75,4 @@
     </pluginManagement>
   </build>
 
-  <reporting>
-    <plugins>
-      <plugin>
-        <artifactId>maven-project-info-reports-plugin</artifactId>
-      </plugin>
-    </plugins>
-  </reporting>
 </project>

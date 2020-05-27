@@ -40,7 +40,8 @@
         <module>stockprice</module>
         <module>brackets</module>
         <module>longestflat</module>
-      <module>deletiondistance</module>
+        <module>deletiondistance</module>
+      <module>hoteldoors</module>
   </modules>
 
     <!-- Global dependencies -->
