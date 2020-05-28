@@ -3,6 +3,7 @@ package tomaytotomato;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * This challenge is similar to the the light bulb problem.
@@ -48,13 +49,7 @@ public class HotelDoors {
             employee++;
         } while (employee <= numberOfRooms);
 
-        int openRooms = 0;
-        for (String room : rooms) {
-            if (room.equals(OPEN)) {
-                openRooms++;
-            }
-        }
-        return openRooms;
+        return (int) rooms.stream().filter(room -> room.equals(OPEN)).count();
     }
 
     /**
