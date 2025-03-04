@@ -44,6 +44,7 @@
         <module>deletiondistance</module>
         <module>hoteldoors</module>
         <module>anagram</module>
+      <module>stringtheory</module>
     </modules>
 
     <!-- Global dependencies -->
