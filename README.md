@@ -1,6 +1,6 @@
 # Java Coding Tests
 
-[![Build Status](https://travis-ci.org/tomaytotomato/coding-tests.svg?branch=master)](https://travis-ci.org/tomaytotomato/coding-tests)
+![example workflow](https://github.com/tomaytotomato/coding-tests/actions/workflows/build.yml/badge.svg)
 
 This repository contains all Java coding challenges I have worked on
 for fun, job applications or hack-days.
